@@ -1,0 +1,82 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg-base: #060B18;
+  --color-bg-card: #0A1128;
+  --color-primary-start: #3B6FFF;
+  --color-primary-end: #8B3FFF;
+  --color-accent: #00F0FF;
+  --color-text-main: #F0F4FF;
+  --color-text-muted: #8A9BC4;
+
+  --font-sans: "DM Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-heading: "Poppins", ui-sans-serif, system-ui, sans-serif;
+}
+
+@layer base {
+  :root {
+    --bg-base: #060B18;
+    --bg-card: #0A1128;
+    --accent: #00F0FF;
+    --text-main: #F0F4FF;
+    --text-muted: #8A9BC4;
+    --border-color: rgba(255, 255, 255, 0.07);
+  }
+
+  body {
+    background-color: var(--bg-base);
+    color: var(--text-main);
+    overflow-x: hidden;
+    font-family: "DM Sans", sans-serif;
+    /* Lenis required base */
+    width: 100%;
+    min-height: 100vh;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Poppins", sans-serif;
+  }
+}
+
+/* Lenis Recommended CSS */
+html.lenis, html.lenis body {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+.lenis.lenis-smooth iframe {
+  pointer-events: none;
+}
+
+/* Utilities */
+@layer utilities {
+  .text-gradient {
+    background: linear-gradient(to right, var(--color-primary-start), var(--color-primary-end));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  
+  .glass-card {
+    background: var(--bg-card);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid var(--border-color);
+  }
+
+  .glass-card:hover {
+    box-shadow: 0 0 30px rgba(59, 111, 255, 0.2);
+    border-color: rgba(255, 255, 255, 0.15);
+  }
+}
