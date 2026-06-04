@@ -18,10 +18,10 @@ export default function CoverSlide() {
         <div className="flex-1 space-y-6">
           <Badge>DS Company &reg; &middot; PRODUTO OFICIAL</Badge>
           
-          <h1 className="text-5xl md:text-7xl lg:text-8xl font-normal tracking-tighter leading-[1.1] border border-[#651193] p-6 rounded-2xl gsap-reveal font-heading">
+          <h1 className="text-5xl md:text-7xl lg:text-8xl font-normal tracking-tighter leading-[1.1] gsap-reveal font-heading">
             Pack{' '}
             <span className="inline-block animate-pulse border border-[#c693ff] bg-[#c59fff] text-[#060B18] px-4 py-1 rounded-xl">Builder</span>{' '}
-            IA <span className="text-xl align-top text-[#8A9BC4] font-normal">&reg;</span>
+            Pro <span className="text-xl align-top text-[#8A9BC4] font-normal">&reg;</span>
           </h1>
 
           <p className="text-xl md:text-2xl text-[#F0F4FF] font-medium leading-relaxed max-w-2xl gsap-reveal">

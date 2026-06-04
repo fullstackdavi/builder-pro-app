@@ -1,4 +1,4 @@
-# 🚀 Instruções de Deploy na Vercel — Pack Builder IA ®
+# 🚀 Instruções de Deploy na Vercel — Pack Builder Pro ®
 
 Este projeto está otimizado para deploy instantâneo na **Vercel** usando as melhores práticas de entrega de conteúdo (SPAs estáticas), com compressão, imagens e roteador configurados.
 

@@ -113,7 +113,7 @@ export default function App() {
       {/* Floating Header */}
       <header className="fixed top-0 left-0 right-0 p-6 md:px-12 flex justify-between items-center z-40">
         <span className="font-sans font-bold text-sm tracking-wider text-[#F0F4FF]">
-          DS Company <span className="text-[#00F0FF] font-light">&middot;</span> PACK BUILDER IA
+          DS Company <span className="text-[#00F0FF] font-light">&middot;</span> PACK BUILDER PRO
         </span>
         <div className="hidden md:flex gap-1.5 p-1 rounded-full border border-white/5 bg-white/2 backdrop-blur-md">
           {slideNames.map((name, index) => {

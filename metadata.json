@@ -1,6 +1,6 @@
 {
-  "name": "Pack Builder IA Presentation",
-  "description": "A high-impact cinematic HTML presentation for the Pack Builder IA product.",
+  "name": "Pack Builder Pro Presentation",
+  "description": "A high-impact cinematic HTML presentation for the Pack Builder Pro product.",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }

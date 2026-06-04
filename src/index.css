@@ -9,7 +9,7 @@
   --color-text-main: #F0F4FF;
   --color-text-muted: #8A9BC4;
 
-  --font-sans: "DM Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-sans: "Poppins", ui-sans-serif, system-ui, sans-serif;
   --font-heading: "Poppins", ui-sans-serif, system-ui, sans-serif;
 }
 
@@ -27,7 +27,7 @@
     background-color: var(--bg-base);
     color: var(--text-main);
     overflow-x: hidden;
-    font-family: "DM Sans", sans-serif;
+    font-family: "Poppins", sans-serif;
     /* Lenis required base */
     width: 100%;
     min-height: 100vh;
