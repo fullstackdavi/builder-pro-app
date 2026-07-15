@@ -66,7 +66,7 @@ export default function GuideOneSlide() {
                     </div>
                     
                     <a 
-                        href="https://guia-ai-app.vercel.app/" 
+                        href="https://guia-ai-app1.vercel.app/" 
                         target="_blank" 
                         rel="noreferrer"
                         className="inline-flex items-center justify-center w-full gap-2 px-8 py-4 bg-white text-[#0A1128] rounded-xl font-medium tracking-wide hover:bg-[#F0F4FF] transition-colors"
